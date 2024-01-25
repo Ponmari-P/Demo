@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Event</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .one
+        {
+            border:1px solid white;
+            width: 1350px;
+            height: 50px;
+            background-color: purple;
+            color:white;
+        }
+        .col1{
+width:50px;
+height:50px;
+float:left;
+margin-left:10px;
+}
+.col2{
+width:100px;
+height:100px;
+float:right;  
+margin-right:600px; 
+margin-top: 30px;
+}
+.col2
+        {
+            display:flex;
+            justify-content: center;
+            margin-top: 50px;
+            list-style-type: none;
+        }
+        a{
+            display: block;
+            width: 100px;
+            color:black;
+            padding:10px 0 ;
+            font-size:15px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+        }
+        a:hover{
+          background-color: blue;
+        }
+        .main
+        {
+          border:2px solid purple;
+          width:1300px;
+          height: 680px;
+          margin: auto;
+          background-color: purple;
+        }
+        .one1
+        {
+          border: 1px solid white;
+          width:1360px;
+          height:350px;
+          margin: auto;
+          background-color:lightcoral;
+        }
+        .two2
+        {
+          border: 1px solid black;
+          width: 200px;
+          height: 100px;
+          margin-bottom: 500px;
+        }
+        .three
+        {
+          border: 1px solid palevioletred;
+          width: 1360px;
+          height: 300px;
+          background-color: palevioletred;
+        }
+        .flex-container
+{
+display:flex;
+border:2px solid pink;
+width:1360px;
+height:300px;
+background-color: pink;
+flex-wrap:wrap;
+flex-direction: column;
+justify-content:flex-start;
+}
+.flex-item
+{
+background-color:white;
+color:black;
+border:2px solid black;
+margin:10px;
+height:200px;
+width:400px;
+}
+.five
+{
+border: 1px solid palevioletred;
+width:1360px;
+height: 300px;
+background-color: palevioletred;
+}
+.six
+{
+  border:1px solid yellow;
+  width: 1000px;
+  height: 330px;
+  margin: auto;
+  background-color: yellow;
+}
+.seven
+{
+  border:1px solid white;
+  width: 1200px;
+  height: 230px;
+  margin: auto;
+  background-color: whitesmoke;
+} 
+.eight
+{
+  border:1px solid yellow;
+  width: 1250px;
+  height: 330px;
+  margin: auto;
+  background-color: yellow;
+}
+.nine
+{
+    border:1px solid white;
+    width: 1360px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: pink;
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <div class="one">
+        <h3 style="float: left; margin-left: 10px;margin-bottom: 5px;">Surprise Machi-Your Happiness Partner.</h3>
+        <h3 style="float: right; margin-right: 10px;margin-bottom: 5px;">+91-9876543210</h3>
+    </div>
+    <div class="col1">
+        <img src="image/logoo.jpg" style="height: 120px;margin-left: 10px;float: left;">
+        </div>
+        <div class="col2">
+        </ul>
+    </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">GIFTS</a></li>
+            <li><a href="#">SURPRISE</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">GALLARY</a></li>
+            <li><a href="#">BLOG</a></li>
+        </ul>
+        <i class="fa-solid fa-magnifying-glass" style="margin-top: 13px;margin-left:280px;font-size: 20px;"></i>
+        <i class="fa-solid fa-user-group" style="margin-top: 13px;margin-left:30px;font-size: 20px;"></i>
+        <i class="fa-regular fa-heart" style="margin-top: 13px;margin-left:30px;font-size: 20px;"></i>
+        <i class="fa-solid fa-bag-shopping" style="margin-top: 13px;margin-left:30px;font-size: 20px;"></i>
+        <button class="btn" style="width: 50px;height: 10px; margin-top: 5px;margin-left:20px;"><strong>LOGIN</strong></button>
+    </div>
+    <div>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/image38.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="image/image39.jpg" alt="Chicago" class="d-block" style="width:100%">
+              </div>
+              <div class="carousel-item">
+                <img src="image/image40.jpg" alt="New York" class="d-block" style="width:100%">
+              </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+    </div>
+    <div>
+        <marquee>
+        <img src="image/img1.jpg" style="width: 200px;height: 100px;margin-left: 30px;">
+        <img src="image/img2.jpg" style="width: 200px;height: 100px;margin-left: 10px;">
+        <img src="image/img3.jpg" style="width: 200px;height: 100px;margin-left: 10px;">
+        <img src="image/img4.jpg" style="width: 200px;height: 130px;margin-left: 10px;">
+        <img src="image/img5.jpg" style="width: 200px;height: 100px;margin-left: 10px;">
+        <img src="image/img6.jpg" style="width: 200px;height: 100px;margin-left: 10px;">
+        <img src="image/img7.jpg" style="width: 200px;height: 100px;margin-left: 10px;">
+         </marquee>
+         </div>
+         <br></br>
+         <div>
+         <marquee class="ma" style="position: relative;">
+            <h4="one" style="width: 300px;height: 100px;margin-left: 100px;">RelationshipBased</h4>
+            <h4="two" style="width: 300px;height: 100px;margin-left: 120px;">Travel</h4>
+            <h4=three" style="width: 300px;height: 100px;margin-left: 150px;">Romantic</h4>
+            <h4="four" style="width: 300px;height: 130px;margin-left: 120px;">Virtual Surprises</h4>
+            <h4="five" style="width: 300px;height: 100px;margin-left: 150px;">New Arrival</h4>
+            <h4="six" style="width: 300px;height: 100px;margin-left: 120px;">Handcrafts</h4>
+            <h4="seven" style="width: 300px;height: 100px;margin-left: 130px;">Booklovers</h4>
+             </marquee>
+             </div>
+             <div class="main">
+                <div class="col3">
+                    <img src ="image/img9.jpg" style="width: 500px; height: 300px;margin-left: 80px;margin-top: 20px;float: left;">
+                    <img src ="image/img10.jpg" style="width: 500px; height: 300px;margin-right: 80px;margin-top: 20px;float: right;">
+                </div>
+                <div class="col4">
+                    <img src ="image/img8.jpg" style="width: 700px; height: 300px;margin-left: 350px;margin-top: 40px;">
+                </div>
+             </div>
+             <br>
+             <div class="one1">
+              <img src="image/img11.jpg" style="width:600px;height:300px;margin-top: 25px;margin-left:50px;float:left">
+              <img src="image/img12.jpg" style="width:600px;height:300px;margin-top: 25px; margin-right:50px;float:right">
+               </div>
+             </div>
+             <br>
+             <div class="three">
+              <h3 style="margin-left: 50px;margin-top: 10px;color: white;">Surprise by Occasion</h3>
+                <img src="image/img13.jpg" style="width: 230px;height: 200px;margin-left: 30px;margin-left: 30px;margin-top: 20px;">
+                <img src="image/img14.jpg" style="width: 230px;height: 200px;margin-left: 10px;margin-left: 40px;margin-top: 20px;">
+                <img src="image/img15.jpg" style="width: 230px;height: 200px;margin-left: 10px;margin-left: 40px;margin-top: 20px;">
+                <img src="image/img16.jpg" style="width: 230px;height: 200px;margin-left: 10px;margin-left: 40px;margin-top: 20px;">
+                <img src="image/img17.jpg" style="width: 230px;height: 200px;margin-left: 10px;margin-left: 30px;margin-top: 20px;">
+             </div>
+             <br>
+             <div class="flex-container">
+              <center><h2 style="margin-top: 10px; color: aliceblue;">Whats Our customers Says</h2></center>
+              <div class="flex-item" style="background-color: black;border-radius: 20px;color: white;">
+              <pre><em>Hats off 
+              the entire team.you all
+              just turened my brother's and my uncle's
+              birthday to a fabulous on through zoom party.
+              It's an unforgettable moment for 
+              us,they were very happy. Once again Thank you to 
+              the Mc's and the singer 
+              of Surprise machi. Looking forward to experience more surprises from you all.
+              keep rocking </em></pre></div>
+              <div class="flex-item" style="margin-top: 65px; background-color: black;border-radius: 20px;color: white;">
+              <pre><em>Hats off 
+              the entire team.you all
+              just turened my brother's and my uncle's
+              birthday to a fabulous on through zoom party.
+              It's an unforgettable moment for 
+              us,they were very happy. Once again Thank you to 
+              the Mc's and the singer 
+              of Surprise machi. Looking forward to experience 
+              more surprises from you all.
+              keep rocking </em></pre></div>
+              <div class="flex-item" style="margin-top: 65px; background-color: black;border-radius: 20px; color: white;">
+              <pre><em>Hats off 
+              the entire team.you all
+              just turened my brother's and my uncle's
+              birthday to a fabulous on through zoom party.
+              It's an unforgettable moment for 
+              us,they were very happy. Once again Thank you to 
+              the Mc's and the singer 
+              of Surprise machi. Looking forward to experience more surprises from you all.
+              keep rocking </em></pre>
+              </div>
+              </div>
+              <br>
+              <center><h1>Get Surprises On Your Next Order</h1></center>
+              <hr>
+              <div class="five">
+                <img src="image/img19.jpg" style="margin-top: 50px;margin-left: 180px;float: left;">
+                <img src="image/img20.jpg" style="margin-top: 50px;margin-left: 230px;">
+                <img src="image/img21.jpg" style="margin-top: 50px;margin-left: 230px;">
+                <img src="image/img22.jpg" style="margin-top: 50px;margin-left: 280px;">
+                <pre>                                        
+                  <strong>Delivery Across India                Customizing Experiences                Every Occasion Counts                         24/7 Experiences</strong>
+                  From the bustling cities           From personalized gifts to unique    Whether it's birthdays, anniversaries, or    Our dedicated team are available round
+                  to the quaint towns, we            surprises, our surpriseguru works    just a simple gesture of love, we have a     the clock to help you plan and execute
+                  ensures that your surprise         tirelessly to make every experience  wide range of surprises to make every        surprises to make every moment special
+                  reaches your loved ones with       tailored to your preferences.        moment unforgettable.                        for lasting memories.
+                  our nationwide delivery service.
+                </pre>
+                </div>
+                <br>
+                <div class="six">
+                  <h4>Affordable Surprise Birthday Party Planners in Chennai.We also Come up with the Unique Ideas for Your Loved One with Ultimate Expertise</h4>
+                  <ul>
+                    <li>Proposals aren't simply about popping the question with a ring anymore.</li>
+                    <li>Surprise Machi develops wonderful celebrations for friends and family — no matter how big or little.</li>
+                    <li>But how can a single person plan everything? That's why we've brought you, Surprise Proposal Planners, 
+                      in Chennai, who are the ultimate specialists in proposal ideas.</li>
+                    <li>We've hand-picked incredible proposal plans who will put on a proposal event unlike any other.</li>
+                    <li>Leave the planning to us and concentrate solely on the romance!</li>
+                    <li>Our team can help you design a fairy tale proposal or a simple one out of many ideas!</li>
+                    <li>So, if you're searching for a Hollywood-style proposal, you know who to contact.</li>
+                    <li>Our Surprise planners will make your proposal a memorable experience for you and your Lover.</li>
+                    <li>Surprise Machi also provides exciting gifts for your partner.</li>
+                    <li>Our Surprise packages include dance, music, online/virtual, theatre surprises, etc.</li>
+                  </ul>
+                </div>
+                <br>
+                <div class="seven">
+                  <center><h5 style="background-color: purple;color: white;">We are also providing the same day Surprise Gifts Delivery in Chennai</h5></center>
+                  <center><h6>Surprise gift in Chennai will make Stunning Gifts at Affordable Price</h6></center>
+                  <br>
+                  <p>Now that you know we specialize in a variety of birthday celebrations plans, go ahead and pick one that suits you best, 
+                  and we'll be at your house at the time you specify, anywhere in Chennai. On our website, you will also find a large 
+                  choice of gifts. So, think of a thoughtful gift that your loved one will cherish forever. We also provide stunning gifts
+                  for every relationship with your Loved Person.</p>
+
+                  <p>Do you feel loved and appreciated? Shop and buy something sentimental. Are you being heard and cared for? Have you been 
+                    excited and delighted? Choose something special or a gift to honour his/her hobbies. You can provide memorable gifts by 
+                    placing an order with Surprise Machi at a reasonable cost.</p>
+                </div>
+                <br>
+                <div class="eight">
+                  <pre>
+                    <h4 style="margin-top: 50px;margin-left: 10px;">
+            ADDRESS         ABOUT   MY ACCOUNT CONTACT US     QUICK LINKS</h4>
+                    Location : 526, 1st floor     AboutUS         My Account   +91-9876543210
+                    3rd Ave, NSK Nagar,           Our Team        Orders       +91-7824899770            Terms & Conditions
+                    Anna Nagar Main Road,         FAQ's           Wishlist                               Shipping & Delivery
+                    Chennai, Tamil Nadu 600106    Contact Us      Checkout      Email US                 Returns & Refund Policy
+                                                  Sitemap         Cart          shahul@surprisemachi.com   Cancelations
+                                                                                surprise@gmail.com
+                  </pre>
+                </div>
+                <div class="nine">
+                  <h4 style="float: left;margin-left: 40px;">Ⓒ 2023. Surprise Machi. All Rights Reserved</h4>
+                  <i class="fa-brands fa-facebook" style="margin-left: 500px;margin-top: 15px;"></i>
+                  <i class="fa-brands fa-twitter" style="margin-left: 20px;margin-top: 15px;"></i>
+                  <i class="fa-brands fa-instagram" style="margin-left: 20px;margin-top: 15px;"></i>
+                  <i class="fa-brands fa-google" style="margin-left: 20px;margin-top: 15px;"> </i>
+                  <i class="fa-brands fa-linkedin-in" style="margin-left: 20px;margin-top: 15px;"></i>
+              </div>
+</body>
+</html>
